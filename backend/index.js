@@ -58,7 +58,6 @@ app.get('/Multiple-random-user', async(req,res) => {
     }
 ); 
 
-
 app.listen(port, () => {
     console.log(`Backend server is running at http://localhost:${port}`);
   });
